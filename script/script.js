@@ -13,6 +13,5 @@ function updateTime() {
   currentDay.textContent = day;
 }
 
-// Call the function to update time on load and set an interval to update every minute
 updateTime();
-setInterval(updateTime, 60000);
+setInterval(updateTime, 1000);
